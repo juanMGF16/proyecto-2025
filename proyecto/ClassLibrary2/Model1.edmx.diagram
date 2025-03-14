@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5a7c41cb0e68423f8424308b74f6d829" Name="Diagram1" ZoomLevel="69" >
+        <EntityTypeShape EntityType="Model1.Rol" Width="1.5" PointX="0.5" PointY="4.125" />
+        <EntityTypeShape EntityType="Model1.Permission" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.RolPermission" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="Model1.User" Width="1.5" PointX="2.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="Model1.UsuarioRol" />
+        <AssociationConnector Association="Model1.PermisoRolPermiso" />
+        <AssociationConnector Association="Model1.RolRolPermiso" />
+        <EntityTypeShape EntityType="Model1.Company" Width="1.5" PointX="7.25" PointY="4.625" />
+        <EntityTypeShape EntityType="Model1.Branch" Width="1.5" PointX="10.25" PointY="5.5" />
+        <AssociationConnector Association="Model1.EmpresaSurcursal" />
+        <EntityTypeShape EntityType="Model1.LocationItem" Width="1.5" PointX="20.25" PointY="4.875" />
+        <EntityTypeShape EntityType="Model1.Category" Width="1.5" PointX="14.625" PointY="7.125" />
+        <EntityTypeShape EntityType="Model1.Item" Width="1.5" PointX="16.5" PointY="2.875" />
+        <AssociationConnector Association="Model1.ItemLocationItem" />
+        <AssociationConnector Association="Model1.ItemCategory" />
+        <EntityTypeShape EntityType="Model1.ImageItem" Width="1.5" PointX="18.875" PointY="0.625" />
+        <AssociationConnector Association="Model1.ImageItemItem" />
+        <EntityTypeShape EntityType="Model1.ItemBranch" Width="1.5" PointX="12.75" PointY="5.25" />
+        <AssociationConnector Association="Model1.ItemFurrowItem" />
+        <EntityTypeShape EntityType="Model1.Report" Width="1.5" PointX="12" PointY="0.75" />
+        <EntityTypeShape EntityType="Model1.InvenraryDetails" Width="1.5" PointX="14.125" PointY="2" />
+        <AssociationConnector Association="Model1.InvenraryDetailsItem" />
+        <AssociationConnector Association="Model1.ReportInvenraryDetails" />
+        <EntityTypeShape EntityType="Model1.Invitation" Width="1.5" PointX="5.125" PointY="7.875" />
+        <AssociationConnector Association="Model1.InvitationEmpresa" />
+        <EntityTypeShape EntityType="Model1.LogActivity" Width="1.5" PointX="5.125" PointY="4.25" />
+        <AssociationConnector Association="Model1.LogActivityUser" />
+        <AssociationConnector Association="Model1.EmpresaUser" />
+        <EntityTypeShape EntityType="Model1.Module" Width="1.5" PointX="7.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Form" Width="1.5" PointX="9.25" PointY="2.25" />
+        <EntityTypeShape EntityType="Model1.FormModule" Width="1.5" PointX="5.375" PointY="1" />
+        <AssociationConnector Association="Model1.FormModuleForm" />
+        <AssociationConnector Association="Model1.FormModuleModule" />
+        <AssociationConnector Association="Model1.FormModuleRolPermission" />
+        <AssociationConnector Association="Model1.ItemBranchBranch" />
+        <EntityTypeShape EntityType="Model1.Person" Width="1.5" PointX="0.5" PointY="7.5" />
+        <AssociationConnector Association="Model1.UserPerson" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

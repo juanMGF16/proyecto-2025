@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="modelo2Modificado.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="modelo2ModificadoTargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="modelo2Modificado" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="modelo2ModificadoContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Rols" EntityType="modelo2Modificado.Rol" />
+          <EntitySet Name="Users" EntityType="modelo2Modificado.User" />
+          <EntitySet Name="Persons" EntityType="modelo2Modificado.Person" />
+          <AssociationSet Name="UserPerson" Association="modelo2Modificado.UserPerson">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Person" EntitySet="Persons" />
+          </AssociationSet>
+          <AssociationSet Name="UserRol" Association="modelo2Modificado.UserRol">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Rol" EntitySet="Rols" />
+          </AssociationSet>
+          <EntitySet Name="PermissionSet" EntityType="modelo2Modificado.Permission" />
+          <EntitySet Name="RolPermissions" EntityType="modelo2Modificado.RolPermission" />
+          <AssociationSet Name="RolPermissionRol" Association="modelo2Modificado.RolPermissionRol">
+            <End Role="RolPermission" EntitySet="RolPermissions" />
+            <End Role="Rol" EntitySet="Rols" />
+          </AssociationSet>
+          <AssociationSet Name="RolPermissionPermission" Association="modelo2Modificado.RolPermissionPermission">
+            <End Role="RolPermission" EntitySet="RolPermissions" />
+            <End Role="Permission" EntitySet="PermissionSet" />
+          </AssociationSet>
+          <EntitySet Name="Companys" EntityType="modelo2Modificado.Company" />
+          <AssociationSet Name="CompanyUser" Association="modelo2Modificado.CompanyUser">
+            <End Role="Company" EntitySet="Companys" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <EntitySet Name="BranchSet" EntityType="modelo2Modificado.Branch" />
+        </EntityContainer>
+        <EntityType Name="Rol">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="LevelAccess" Type="String" Nullable="false" />
+          <Property Name="Created_at" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="modelo2Modificado.UserRol" FromRole="Rol" ToRole="User" />
+          <NavigationProperty Name="RolPermission" Relationship="modelo2Modificado.RolPermissionRol" FromRole="Rol" ToRole="RolPermission" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdPerson" Relationship="modelo2Modificado.UserPerson" FromRole="User" ToRole="Person" />
+          <Property Name="PersonId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="IdRol" Relationship="modelo2Modificado.UserRol" FromRole="User" ToRole="Rol" />
+          <Property Name="RolId" Type="Int32" Nullable="false" />
+          <Property Name="Username" Type="String" Nullable="false" />
+          <Property Name="Password" Type="String" Nullable="false" />
+          <Property Name="Email" Type="String" Nullable="false" />
+          <Property Name="Created_at" Type="DateTime" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Company" Relationship="modelo2Modificado.CompanyUser" FromRole="User" ToRole="Company" />
+          <Property Name="CompanyId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Person">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="User" Relationship="modelo2Modificado.UserPerson" FromRole="Person" ToRole="User" />
+          <Property Name="Code" Type="String" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="LastName" Type="String" Nullable="false" />
+          <Property Name="NumberIdentification" Type="String" Nullable="false" />
+          <Property Name="Phone" Type="String" Nullable="false" />
+        </EntityType>
+        <Association Name="UserPerson">
+          <End Type="modelo2Modificado.User" Role="User" Multiplicity="*" />
+          <End Type="modelo2Modificado.Person" Role="Person" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Person">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="PersonId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="UserRol">
+          <End Type="modelo2Modificado.User" Role="User" Multiplicity="*" />
+          <End Type="modelo2Modificado.Rol" Role="Rol" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Rol">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="RolId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Permission">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Code" Type="String" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="Module" Type="String" Nullable="false" />
+          <NavigationProperty Name="RolPermission" Relationship="modelo2Modificado.RolPermissionPermission" FromRole="Permission" ToRole="RolPermission" />
+        </EntityType>
+        <EntityType Name="RolPermission">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdRol" Relationship="modelo2Modificado.RolPermissionRol" FromRole="RolPermission" ToRole="Rol" />
+          <Property Name="RolId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="IdPermission" Relationship="modelo2Modificado.RolPermissionPermission" FromRole="RolPermission" ToRole="Permission" />
+          <Property Name="PermissionId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="RolPermissionRol">
+          <End Type="modelo2Modificado.RolPermission" Role="RolPermission" Multiplicity="*" />
+          <End Type="modelo2Modificado.Rol" Role="Rol" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Rol">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolPermission">
+              <PropertyRef Name="RolId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RolPermissionPermission">
+          <End Type="modelo2Modificado.RolPermission" Role="RolPermission" Multiplicity="*" />
+          <End Type="modelo2Modificado.Permission" Role="Permission" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Permission">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolPermission">
+              <PropertyRef Name="PermissionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Company">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdUser" Relationship="modelo2Modificado.CompanyUser" FromRole="Company" ToRole="User" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="RucNit" Type="String" Nullable="false" />
+          <Property Name="Adress" Type="String" Nullable="false" />
+          <Property Name="Phone" Type="String" Nullable="false" />
+          <Property Name="Email" Type="String" Nullable="false" />
+          <Property Name="Logo" Type="String" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <Property Name="DateRegister" Type="DateTime" Nullable="false" />
+        </EntityType>
+        <Association Name="CompanyUser">
+          <End Type="modelo2Modificado.Company" Role="Company" Multiplicity="1" />
+          <End Type="modelo2Modificado.User" Role="User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Company">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="CompanyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Branch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="modelo2Modificado" />
+        <Alias Key="Target" Value="modelo2Modificado.Store" />
+        <EntityContainerMapping CdmEntityContainer="modelo2ModificadoContainer" StorageEntityContainer="modelo2ModificadoTargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="Model1TargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="RolSet" EntityType="Model1.Rol" />
+          <EntitySet Name="Permisos" EntityType="Model1.Permission" />
+          <EntitySet Name="RolPermisos" EntityType="Model1.RolPermission" />
+          <EntitySet Name="Usuarios" EntityType="Model1.User" />
+          <AssociationSet Name="UsuarioRol" Association="Model1.UsuarioRol">
+            <End Role="Usuario" EntitySet="Usuarios" />
+            <End Role="Rol" EntitySet="RolSet" />
+          </AssociationSet>
+          <AssociationSet Name="PermisoRolPermiso" Association="Model1.PermisoRolPermiso">
+            <End Role="Permiso" EntitySet="Permisos" />
+            <End Role="RolPermiso" EntitySet="RolPermisos" />
+          </AssociationSet>
+          <AssociationSet Name="RolRolPermiso" Association="Model1.RolRolPermiso">
+            <End Role="Rol" EntitySet="RolSet" />
+            <End Role="RolPermiso" EntitySet="RolPermisos" />
+          </AssociationSet>
+          <EntitySet Name="Empresas" EntityType="Model1.Empresa" />
+          <EntitySet Name="Surcursals" EntityType="Model1.Branch" />
+          <AssociationSet Name="EmpresaSurcursal" Association="Model1.EmpresaSurcursal">
+            <End Role="Empresa" EntitySet="Empresas" />
+            <End Role="Surcursal" EntitySet="Surcursals" />
+          </AssociationSet>
+          <EntitySet Name="LocationItems" EntityType="Model1.LocationItem" />
+          <EntitySet Name="Categorys" EntityType="Model1.Category" />
+          <EntitySet Name="Items" EntityType="Model1.Item" />
+          <AssociationSet Name="ItemLocationItem" Association="Model1.ItemLocationItem">
+            <End Role="Item" EntitySet="Items" />
+            <End Role="LocationItem" EntitySet="LocationItems" />
+          </AssociationSet>
+          <AssociationSet Name="ItemCategory" Association="Model1.ItemCategory">
+            <End Role="Item" EntitySet="Items" />
+            <End Role="Category" EntitySet="Categorys" />
+          </AssociationSet>
+          <EntitySet Name="ImageItems" EntityType="Model1.ImageItem" />
+          <AssociationSet Name="ImageItemItem" Association="Model1.ImageItemItem">
+            <End Role="ImageItem" EntitySet="ImageItems" />
+            <End Role="Item" EntitySet="Items" />
+          </AssociationSet>
+          <EntitySet Name="ItemFurrows" EntityType="Model1.ItemBranch" />
+          <AssociationSet Name="ItemFurrowItem" Association="Model1.ItemFurrowItem">
+            <End Role="ItemFurrow" EntitySet="ItemFurrows" />
+            <End Role="Item" EntitySet="Items" />
+          </AssociationSet>
+          <EntitySet Name="Reports" EntityType="Model1.Report" />
+          <EntitySet Name="InvenraryDetails" EntityType="Model1.InvenraryDetails" />
+          <AssociationSet Name="InvenraryDetailsItem" Association="Model1.InvenraryDetailsItem">
+            <End Role="InvenraryDetails" EntitySet="InvenraryDetails" />
+            <End Role="Item" EntitySet="Items" />
+          </AssociationSet>
+          <AssociationSet Name="ReportInvenraryDetails" Association="Model1.ReportInvenraryDetails">
+            <End Role="Report" EntitySet="Reports" />
+            <End Role="InvenraryDetails" EntitySet="InvenraryDetails" />
+          </AssociationSet>
+          <EntitySet Name="Invitations" EntityType="Model1.Invitation" />
+          <AssociationSet Name="InvitationEmpresa" Association="Model1.InvitationEmpresa">
+            <End Role="Invitation" EntitySet="Invitations" />
+            <End Role="Empresa" EntitySet="Empresas" />
+          </AssociationSet>
+          <EntitySet Name="LogActivitys" EntityType="Model1.LogActivity" />
+          <AssociationSet Name="LogActivityUser" Association="Model1.LogActivityUser">
+            <End Role="LogActivity" EntitySet="LogActivitys" />
+            <End Role="User" EntitySet="Usuarios" />
+          </AssociationSet>
+          <AssociationSet Name="EmpresaUser" Association="Model1.EmpresaUser">
+            <End Role="Empresa" EntitySet="Empresas" />
+            <End Role="User" EntitySet="Usuarios" />
+          </AssociationSet>
+          <EntitySet Name="ModuleSet1" EntityType="Model1.Module" />
+          <EntitySet Name="FormSet" EntityType="Model1.Form" />
+          <EntitySet Name="FormModuleSet" EntityType="Model1.FormModule" />
+          <AssociationSet Name="FormModuleForm" Association="Model1.FormModuleForm">
+            <End Role="FormModule" EntitySet="FormModuleSet" />
+            <End Role="Form" EntitySet="FormSet" />
+          </AssociationSet>
+          <AssociationSet Name="FormModuleModule" Association="Model1.FormModuleModule">
+            <End Role="FormModule" EntitySet="FormModuleSet" />
+            <End Role="Module" EntitySet="ModuleSet1" />
+          </AssociationSet>
+          <AssociationSet Name="FormModuleRolPermission" Association="Model1.FormModuleRolPermission">
+            <End Role="FormModule" EntitySet="FormModuleSet" />
+            <End Role="RolPermission" EntitySet="RolPermisos" />
+          </AssociationSet>
+          <AssociationSet Name="ItemBranchBranch" Association="Model1.ItemBranchBranch">
+            <End Role="ItemBranch" EntitySet="ItemFurrows" />
+            <End Role="Branch" EntitySet="Surcursals" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Rol">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="LevelAccess" Type="String" Nullable="false" />
+          <NavigationProperty Name="Usuario" Relationship="Model1.UsuarioRol" FromRole="Rol" ToRole="Usuario" />
+          <NavigationProperty Name="RolPermiso" Relationship="Model1.RolRolPermiso" FromRole="Rol" ToRole="RolPermiso" />
+        </EntityType>
+        <EntityType Name="Permission">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Code" Type="String" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="Module" Type="String" Nullable="false" />
+          <NavigationProperty Name="RolPermiso" Relationship="Model1.PermisoRolPermiso" FromRole="Permiso" ToRole="RolPermiso" />
+        </EntityType>
+        <EntityType Name="RolPermission">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Permiso" Relationship="Model1.PermisoRolPermiso" FromRole="RolPermiso" ToRole="Permiso" />
+          <Property Name="PermissionId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Rol" Relationship="Model1.RolRolPermiso" FromRole="RolPermiso" ToRole="Rol" />
+          <Property Name="RolId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="FormModule" Relationship="Model1.FormModuleRolPermission" FromRole="RolPermission" ToRole="FormModule" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RolId" Type="String" Nullable="false" />
+          <NavigationProperty Name="IdRol" Relationship="Model1.UsuarioRol" FromRole="Usuario" ToRole="Rol" />
+          <Property Name="Username" Type="String" Nullable="false" />
+          <Property Name="Password" Type="String" Nullable="false" />
+          <Property Name="Email" Type="String" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="LastName" Type="String" Nullable="false" />
+          <Property Name="NumberIdentification" Type="String" Nullable="false" />
+          <Property Name="Phone" Type="String" Nullable="false" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="LogActivity" Relationship="Model1.LogActivityUser" FromRole="User" ToRole="LogActivity" />
+          <NavigationProperty Name="Empresa" Relationship="Model1.EmpresaUser" FromRole="User" ToRole="Empresa" />
+          <Property Name="EmpresaId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="UsuarioRol">
+          <End Type="Model1.User" Role="Usuario" Multiplicity="*" />
+          <End Type="Model1.Rol" Role="Rol" Multiplicity="1" />
+        </Association>
+        <Association Name="PermisoRolPermiso">
+          <End Type="Model1.Permission" Role="Permiso" Multiplicity="1" />
+          <End Type="Model1.RolPermission" Role="RolPermiso" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Permiso">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolPermiso">
+              <PropertyRef Name="PermissionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RolRolPermiso">
+          <End Type="Model1.Rol" Role="Rol" Multiplicity="1" />
+          <End Type="Model1.RolPermission" Role="RolPermiso" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rol">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RolPermiso">
+              <PropertyRef Name="RolId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Empresa">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Adress" Type="String" Nullable="false" />
+          <Property Name="Phone" Type="String" Nullable="false" />
+          <Property Name="Email" Type="String" Nullable="false" />
+          <Property Name="Logo" Type="String" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <Property Name="DateRegistry" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="IdSurcursal" Relationship="Model1.EmpresaSurcursal" FromRole="Empresa" ToRole="Surcursal" />
+          <NavigationProperty Name="Invitation" Relationship="Model1.InvitationEmpresa" FromRole="Empresa" ToRole="Invitation" />
+          <NavigationProperty Name="IdUser" Relationship="Model1.EmpresaUser" FromRole="Empresa" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Branch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Empresa" Relationship="Model1.EmpresaSurcursal" FromRole="Surcursal" ToRole="Empresa" />
+          <Property Name="EmpresaId" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Adress" Type="String" Nullable="false" />
+          <Property Name="Phone" Type="String" Nullable="false" />
+          <Property Name="Email" Type="String" Nullable="false" />
+          <Property Name="InCharge" Type="String" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <Property Name="LocationFurrow" Type="String" Nullable="false" />
+          <NavigationProperty Name="ItemBranch" Relationship="Model1.ItemBranchBranch" FromRole="Branch" ToRole="ItemBranch" />
+        </EntityType>
+        <Association Name="EmpresaSurcursal">
+          <End Type="Model1.Empresa" Role="Empresa" Multiplicity="1" />
+          <End Type="Model1.Branch" Role="Surcursal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresa">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Surcursal">
+              <PropertyRef Name="EmpresaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="LocationItem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="Type" Type="String" Nullable="false" />
+          <NavigationProperty Name="Item" Relationship="Model1.ItemLocationItem" FromRole="LocationItem" ToRole="Item" />
+        </EntityType>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <NavigationProperty Name="Item" Relationship="Model1.ItemCategory" FromRole="Category" ToRole="Item" />
+        </EntityType>
+        <EntityType Name="Item">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdLocationItem" Relationship="Model1.ItemLocationItem" FromRole="Item" ToRole="LocationItem" />
+          <Property Name="LocationItemId" Type="Int32" Nullable="false" />
+          <Property Name="Code" Type="String" Nullable="false" />
+          <Property Name="CodeQr" Type="String" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <NavigationProperty Name="IdCategory" Relationship="Model1.ItemCategory" FromRole="Item" ToRole="Category" />
+          <Property Name="CategoryId" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="ImageItem" Relationship="Model1.ImageItemItem" FromRole="Item" ToRole="ImageItem" />
+          <NavigationProperty Name="ItemFurrow" Relationship="Model1.ItemFurrowItem" FromRole="Item" ToRole="ItemFurrow" />
+          <NavigationProperty Name="InvenraryDetails" Relationship="Model1.InvenraryDetailsItem" FromRole="Item" ToRole="InvenraryDetails" />
+        </EntityType>
+        <Association Name="ItemLocationItem">
+          <End Type="Model1.Item" Role="Item" Multiplicity="*" />
+          <End Type="Model1.LocationItem" Role="LocationItem" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="LocationItem">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Item">
+              <PropertyRef Name="LocationItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ItemCategory">
+          <End Type="Model1.Item" Role="Item" Multiplicity="*" />
+          <End Type="Model1.Category" Role="Category" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Item">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ImageItem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdItem" Relationship="Model1.ImageItemItem" FromRole="ImageItem" ToRole="Item" />
+          <Property Name="ItemId" Type="Int32" Nullable="false" />
+          <Property Name="UrlImage" Type="String" Nullable="false" />
+          <Property Name="DateRegistry" Type="String" Nullable="false" />
+        </EntityType>
+        <Association Name="ImageItemItem">
+          <End Type="Model1.ImageItem" Role="ImageItem" Multiplicity="*" />
+          <End Type="Model1.Item" Role="Item" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Item">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ImageItem">
+              <PropertyRef Name="ItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ItemBranch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdItem" Relationship="Model1.ItemFurrowItem" FromRole="ItemFurrow" ToRole="Item" />
+          <Property Name="ItemId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="IdBranch" Relationship="Model1.ItemBranchBranch" FromRole="ItemBranch" ToRole="Branch" />
+          <Property Name="BranchId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="ItemFurrowItem">
+          <End Type="Model1.ItemBranch" Role="ItemFurrow" Multiplicity="*" />
+          <End Type="Model1.Item" Role="Item" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Item">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ItemFurrow">
+              <PropertyRef Name="ItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Report">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdInvenraryDetails" Relationship="Model1.ReportInvenraryDetails" FromRole="Report" ToRole="InvenraryDetails" />
+          <Property Name="InvenraryDetailsId" Type="Int32" Nullable="false" />
+          <Property Name="DateReport" Type="DateTime" Nullable="false" />
+          <Property Name="TypeProblen" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="Status" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="InvenraryDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdItem" Relationship="Model1.InvenraryDetailsItem" FromRole="InvenraryDetails" ToRole="Item" />
+          <Property Name="ItemId" Type="Int32" Nullable="false" />
+          <Property Name="StatusPrevious" Type="String" Nullable="false" />
+          <Property Name="StatusNew" Type="String" Nullable="false" />
+          <Property Name="Observations" Type="String" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Report" Relationship="Model1.ReportInvenraryDetails" FromRole="InvenraryDetails" ToRole="Report" />
+        </EntityType>
+        <Association Name="InvenraryDetailsItem">
+          <End Type="Model1.InvenraryDetails" Role="InvenraryDetails" Multiplicity="*" />
+          <End Type="Model1.Item" Role="Item" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Item">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InvenraryDetails">
+              <PropertyRef Name="ItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ReportInvenraryDetails">
+          <End Type="Model1.Report" Role="Report" Multiplicity="*" />
+          <End Type="Model1.InvenraryDetails" Role="InvenraryDetails" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="InvenraryDetails">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Report">
+              <PropertyRef Name="InvenraryDetailsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Invitation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdEmpresa" Relationship="Model1.InvitationEmpresa" FromRole="Invitation" ToRole="Empresa" />
+          <Property Name="EmpresaId" Type="Int32" Nullable="false" />
+          <Property Name="EmailInvited" Type="String" Nullable="false" />
+          <Property Name="Token" Type="String" Nullable="false" />
+          <Property Name="DateInvitated" Type="DateTime" Nullable="false" />
+          <Property Name="DateExpiration" Type="DateTime" Nullable="false" />
+          <Property Name="DateAcceptance" Type="DateTime" Nullable="false" />
+        </EntityType>
+        <Association Name="InvitationEmpresa">
+          <End Type="Model1.Invitation" Role="Invitation" Multiplicity="*" />
+          <End Type="Model1.Empresa" Role="Empresa" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Empresa">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Invitation">
+              <PropertyRef Name="EmpresaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="LogActivity">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdUser" Relationship="Model1.LogActivityUser" FromRole="LogActivity" ToRole="User" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Action" Type="String" Nullable="false" />
+          <Property Name="TableAfected" Type="String" Nullable="false" />
+          <Property Name="DataPrevious" Type="String" Nullable="false" />
+          <Property Name="DataNews" Type="String" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
+        </EntityType>
+        <Association Name="LogActivityUser">
+          <End Type="Model1.LogActivity" Role="LogActivity" Multiplicity="*" />
+          <End Type="Model1.User" Role="User" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LogActivity">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="EmpresaUser">
+          <End Type="Model1.Empresa" Role="Empresa" Multiplicity="1" />
+          <End Type="Model1.User" Role="User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresa">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="EmpresaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Module">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="DateCreation" Type="String" Nullable="false" />
+          <NavigationProperty Name="FormModule" Relationship="Model1.FormModuleModule" FromRole="Module" ToRole="FormModule" />
+        </EntityType>
+        <EntityType Name="Form">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="Url" Type="String" Nullable="false" />
+          <NavigationProperty Name="FormModule" Relationship="Model1.FormModuleForm" FromRole="Form" ToRole="FormModule" />
+        </EntityType>
+        <EntityType Name="FormModule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="IdForm" Relationship="Model1.FormModuleForm" FromRole="FormModule" ToRole="Form" />
+          <Property Name="FormId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="IdModule" Relationship="Model1.FormModuleModule" FromRole="FormModule" ToRole="Module" />
+          <Property Name="ModuleId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="IdRolPermission" Relationship="Model1.FormModuleRolPermission" FromRole="FormModule" ToRole="RolPermission" />
+          <Property Name="RolPermissionId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="FormModuleForm">
+          <End Type="Model1.FormModule" Role="FormModule" Multiplicity="*" />
+          <End Type="Model1.Form" Role="Form" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Form">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FormModule">
+              <PropertyRef Name="FormId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FormModuleModule">
+          <End Type="Model1.FormModule" Role="FormModule" Multiplicity="*" />
+          <End Type="Model1.Module" Role="Module" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Module">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FormModule">
+              <PropertyRef Name="ModuleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FormModuleRolPermission">
+          <End Type="Model1.FormModule" Role="FormModule" Multiplicity="*" />
+          <End Type="Model1.RolPermission" Role="RolPermission" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="RolPermission">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FormModule">
+              <PropertyRef Name="RolPermissionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ItemBranchBranch">
+          <End Type="Model1.ItemBranch" Role="ItemBranch" Multiplicity="*" />
+          <End Type="Model1.Branch" Role="Branch" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Branch">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ItemBranch">
+              <PropertyRef Name="BranchId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="Model1" />
+        <Alias Key="Target" Value="Model1.Store" />
+        <EntityContainerMapping CdmEntityContainer="Model1Container" StorageEntityContainer="Model1TargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
