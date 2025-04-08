@@ -1,0 +1,96 @@
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Business.deps.json
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Business.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Business.pdb
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Data.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Entity.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Utilities.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Data.pdb
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Utilities.pdb
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\bin\Debug\net8.0\Entity.pdb
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\Business.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\Business.pdb
+C:\Users\Guerrero\Desktop\MER_Proyect\Business\obj\Debug\net8.0\ref\Business.dll
+D:\MER_Proyect\Business\bin\Debug\net8.0\Business.deps.json
+D:\MER_Proyect\Business\bin\Debug\net8.0\Business.dll
+D:\MER_Proyect\Business\bin\Debug\net8.0\Business.pdb
+D:\MER_Proyect\Business\bin\Debug\net8.0\Data.dll
+D:\MER_Proyect\Business\bin\Debug\net8.0\Entity.dll
+D:\MER_Proyect\Business\bin\Debug\net8.0\Utilities.dll
+D:\MER_Proyect\Business\bin\Debug\net8.0\Data.pdb
+D:\MER_Proyect\Business\bin\Debug\net8.0\Utilities.pdb
+D:\MER_Proyect\Business\bin\Debug\net8.0\Entity.pdb
+D:\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\MER_Proyect\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\MER_Proyect\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\MER_Proyect\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+D:\MER_Proyect\Business\obj\Debug\net8.0\Business.dll
+D:\MER_Proyect\Business\obj\Debug\net8.0\refint\Business.dll
+D:\MER_Proyect\Business\obj\Debug\net8.0\Business.pdb
+D:\MER_Proyect\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Business.deps.json
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Business.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Business.pdb
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Data.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Entity.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Data.pdb
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Entity.pdb
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.pdb
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Business.deps.json
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Business.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Business.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Data.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Entity.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Data.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\bin\Debug\net8.0\Entity.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\Business.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Business.deps.json
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Business.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Business.pdb
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Data.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Entity.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Data.pdb
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\bin\Debug\net8.0\Entity.pdb
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.sourcelink.json
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\Business.pdb
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Business\obj\Debug\net8.0\ref\Business.dll

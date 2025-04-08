@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="034538307d3f4019a72459f97bf3b38f" Name="Diagram1" ZoomLevel="80" >
+        <EntityTypeShape EntityType="Model1.Rol" Width="1.5" PointX="10.75" PointY="5.125" />
+        <EntityTypeShape EntityType="Model1.Permission" Width="1.5" PointX="8.375" PointY="8.125" />
+        <EntityTypeShape EntityType="Model1.RolFormPermission" Width="1.5" PointX="8.5" PointY="4.875" />
+        <EntityTypeShape EntityType="Model1.User" Width="1.5" PointX="15.875" PointY="5" />
+        <EntityTypeShape EntityType="Model1.Category" Width="1.5" PointX="19.875" PointY="9.125" />
+        <EntityTypeShape EntityType="Model1.Item" Width="1.5" PointX="22.875" PointY="8" />
+        <EntityTypeShape EntityType="Model1.ImageItem" Width="1.5" PointX="25.375" PointY="8.875" />
+        <EntityTypeShape EntityType="Model1.InvenraryDetails" Width="1.5" PointX="25.5" PointY="5.5" />
+        <EntityTypeShape EntityType="Model1.LogActivity" Width="1.5" PointX="16" PointY="8.5" />
+        <EntityTypeShape EntityType="Model1.Module" Width="1.5" PointX="13.125" PointY="1.875" />
+        <EntityTypeShape EntityType="Model1.Form" Width="1.5" PointX="8.625" PointY="2" />
+        <EntityTypeShape EntityType="Model1.FormModule" Width="1.5" PointX="10.875" PointY="1.875" />
+        <EntityTypeShape EntityType="Model1.Person" Width="1.5" PointX="16" PointY="1.75" />
+        <EntityTypeShape EntityType="Model1.Zone" Width="1.5" PointX="23" PointY="5.5" />
+        <EntityTypeShape EntityType="Model1.Company" Width="1.5" PointX="18.5" PointY="5.125" />
+        <EntityTypeShape EntityType="Model1.Branch" Width="1.5" PointX="20.75" PointY="5" />
+        <EntityTypeShape EntityType="Model1.RolUser" Width="1.5" PointX="13.375" PointY="5.25" />
+        <AssociationConnector Association="Model1.CompanyUser" />
+        <AssociationConnector Association="Model1.BranchCompany" />
+        <AssociationConnector Association="Model1.CategoryItem" />
+        <AssociationConnector Association="Model1.ItemImageItem" />
+        <AssociationConnector Association="Model1.BranchZone" />
+        <AssociationConnector Association="Model1.ZoneInvenraryDetails" />
+        <AssociationConnector Association="Model1.FormFormModule" />
+        <AssociationConnector Association="Model1.ModuleFormModule" />
+        <AssociationConnector Association="Model1.PersonUser" />
+        <AssociationConnector Association="Model1.FormRolFormPermission" />
+        <AssociationConnector Association="Model1.RolRolFormPermission" />
+        <AssociationConnector Association="Model1.PermissionRolFormPermission" />
+        <AssociationConnector Association="Model1.UserRolUser" />
+        <AssociationConnector Association="Model1.RolRolUser" />
+        <AssociationConnector Association="Model1.ZoneItem" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

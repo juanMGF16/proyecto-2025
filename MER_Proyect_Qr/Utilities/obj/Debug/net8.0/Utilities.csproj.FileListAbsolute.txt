@@ -1,0 +1,56 @@
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.deps.json
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.pdb
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\obj\Debug\net8.0\refint\Utilities.dll
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.pdb
+C:\Users\Guerrero\Desktop\MER_Proyect\Utilities\obj\Debug\net8.0\ref\Utilities.dll
+D:\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.deps.json
+D:\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.dll
+D:\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.pdb
+D:\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
+D:\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
+D:\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.csproj.CoreCompileInputs.cache
+D:\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.dll
+D:\MER_Proyect\Utilities\obj\Debug\net8.0\refint\Utilities.dll
+D:\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.pdb
+D:\MER_Proyect\Utilities\obj\Debug\net8.0\ref\Utilities.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.deps.json
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\refint\Utilities.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\ref\Utilities.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.deps.json
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\bin\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\refint\Utilities.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Utilities\obj\Debug\net8.0\ref\Utilities.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\bin\Debug\net8.0\Utilities.deps.json
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\bin\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\bin\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\Utilities.sourcelink.json
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\Utilities.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\refint\Utilities.dll
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\Utilities.pdb
+C:\Users\Juan Manuel\Desktop\proyecto-2025\MER_Proyect_Qr\Utilities\obj\Debug\net8.0\ref\Utilities.dll

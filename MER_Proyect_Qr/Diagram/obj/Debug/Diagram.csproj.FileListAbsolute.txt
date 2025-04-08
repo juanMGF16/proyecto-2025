@@ -1,0 +1,14 @@
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Diagram\bin\Debug\Diagram.dll.config
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Diagram\bin\Debug\Diagram.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Diagram\bin\Debug\Diagram.pdb
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Diagram\obj\Debug\Diagram.csproj.AssemblyReference.cache
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Diagram\obj\Debug\Diagram.csproj.CoreCompileInputs.cache
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Diagram\obj\Debug\Diagram.dll
+C:\Users\Juan Manuel\Downloads\MER_Proyect\MER_Proyect\Diagram\obj\Debug\Diagram.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Diagram\bin\Debug\Diagram.dll.config
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Diagram\bin\Debug\Diagram.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Diagram\bin\Debug\Diagram.pdb
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Diagram\obj\Debug\Diagram.csproj.AssemblyReference.cache
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Diagram\obj\Debug\Diagram.csproj.CoreCompileInputs.cache
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Diagram\obj\Debug\Diagram.dll
+C:\Users\Juan Manuel\Desktop\MER_Proyect\MER_Proyect\Diagram\obj\Debug\Diagram.pdb
