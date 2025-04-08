@@ -1,6 +1,7 @@
 ﻿
 
 using Data;
+using Data.Interfaces;
 using Entity.DTOs;
 using Entity.DTOs.Mostrar;
 using Entity.DTOs.Update;
@@ -12,10 +13,10 @@ namespace Business
 {
     public class UserBusiness
     {
-        private readonly UserData _userData;
+        private readonly IUserData _userData;
         private readonly ILogger<UserBusiness> _logger;
 
-        public UserBusiness(UserData userData, ILogger<UserBusiness> logger)
+        public UserBusiness(IUserData userData, ILogger<UserBusiness> logger)
         {
             _userData = userData;
             _logger = logger;
