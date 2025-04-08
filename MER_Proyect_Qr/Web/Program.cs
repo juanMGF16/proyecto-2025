@@ -3,6 +3,8 @@ using Data;
 using Data.Factory;
 using Data.Interfaces;
 using Entity.Context;
+using Entity.DTOs.Mostrar;
+using Entity.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -42,7 +44,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 
 // 🔹 Repositorio dinámico para UserData usando Factory
-builder.Services.AddScoped<IUserData>(sp =>
+builder.Services.AddScoped<IUserData<User, MostrarUserDto>>(sp =>
 {
     var context = sp.GetRequiredService<ApplicationDbContext>();
     var loggerFactory = sp.GetRequiredService<ILoggerFactory>();
@@ -51,7 +53,15 @@ builder.Services.AddScoped<IUserData>(sp =>
 
 // 🔹 Registrar servicios de negocio y datos
 builder.Services.AddScoped<UserBusiness>();
-builder.Services.AddScoped<PersonData>();
+
+builder.Services.AddScoped<IUserData<Person,MostrarPersonDto>>(sp =>
+{
+    var context = sp.GetRequiredService<ApplicationDbContext>();
+    var loggerFactory = sp.GetRequiredService<ILoggerFactory>();
+    return PersonDataFactory.Create(dbProvider, context, loggerFactory);
+    });
+
+
 builder.Services.AddScoped<PersonBusiness>();
 builder.Services.AddScoped<FormData>();
 builder.Services.AddScoped<FormBusiness>();

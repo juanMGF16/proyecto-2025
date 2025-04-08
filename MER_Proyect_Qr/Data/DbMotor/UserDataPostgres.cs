@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Data.DbMotor
 {
-    class UserDataPostgres : IUserData
+    class UserDataPostgres : IUserData<User, MostrarUserDto>
     {
         private readonly ApplicationDbContext _context;
         private readonly ILogger<UserDataPostgres> _logger;

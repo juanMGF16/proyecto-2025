@@ -1,13 +1,15 @@
 ﻿using Data.DbMotor;
 using Data.Interfaces;
 using Entity.Context;
+using Entity.DTOs.Mostrar;
+using Entity.Model;
 using Microsoft.Extensions.Logging;
 
 namespace Data.Factory
 {
     public class UserDataFactory
     {
-        public static IUserData Create(string dbType, ApplicationDbContext context, ILoggerFactory loggerFactory)
+        public static IUserData<User, MostrarUserDto> Create(string dbType, ApplicationDbContext context, ILoggerFactory loggerFactory)
         {
             return dbType switch
             {

@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Data.DbMotor
 {
-    public class UserDataSqlServer : IUserData
+    public class UserDataSqlServer : IUserData<User, MostrarUserDto>
     {
         private readonly ApplicationDbContext _context;
         private readonly ILogger<UserDataSqlServer> _logger;

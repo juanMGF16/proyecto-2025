@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\factory\\userdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\factory\\userdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\formmoduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\formmoduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\dbmotor\\userdatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\dbmotor\\userdatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\permissiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\permissiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\dbmotor\\persondatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\dbmotor\\persondatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{552C62F8-1D88-42F2-A938-DCAC115D575B}|Web\\Web.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -15,24 +31,36 @@
       "RelativeMoniker": "D:0:0:{552C62F8-1D88-42F2-A938-DCAC115D575B}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\dbmotor\\userdatamysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\dbmotor\\userdatamysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\factory\\persondatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\factory\\persondatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\dbmotor\\userdatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\dbmotor\\userdatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\business\\personbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\personbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\factory\\userdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\factory\\userdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\dbmotor\\userdatapostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\dbmotor\\userdatapostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\dbmotor\\userdatamysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\dbmotor\\userdatamysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{552C62F8-1D88-42F2-A938-DCAC115D575B}|Web\\Web.csproj|c:\\users\\juan manuel\\desktop\\proyecto-2025\\mer_proyect_qr\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,60 +78,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDataMySql.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataMySql.cs",
-              "RelativeDocumentMoniker": "Data\\DbMotor\\UserDataMySql.cs",
-              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataMySql.cs",
-              "RelativeToolTip": "Data\\DbMotor\\UserDataMySql.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormModuleData.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\FormModuleData.cs",
+              "RelativeDocumentMoniker": "Data\\FormModuleData.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\FormModuleData.cs",
+              "RelativeToolTip": "Data\\FormModuleData.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:05:36.041Z"
+              "WhenOpened": "2025-04-08T18:52:03.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
+              "Title": "PermissionData.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\PermissionData.cs",
+              "RelativeDocumentMoniker": "Data\\PermissionData.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\PermissionData.cs",
+              "RelativeToolTip": "Data\\PermissionData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T04:14:00.08Z"
+              "WhenOpened": "2025-04-08T18:51:46.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\appsettings.json",
-              "RelativeDocumentMoniker": "Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\appsettings.json",
-              "RelativeToolTip": "Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T04:08:56.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDataFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Factory\\UserDataFactory.cs",
-              "RelativeDocumentMoniker": "Data\\Factory\\UserDataFactory.cs",
-              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Factory\\UserDataFactory.cs",
-              "RelativeToolTip": "Data\\Factory\\UserDataFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PersonDataFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Factory\\PersonDataFactory.cs",
+              "RelativeDocumentMoniker": "Data\\Factory\\PersonDataFactory.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Factory\\PersonDataFactory.cs",
+              "RelativeToolTip": "Data\\Factory\\PersonDataFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T03:58:02.267Z",
+              "WhenOpened": "2025-04-08T18:30:20.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\appsettings.json",
+              "RelativeToolTip": "Web\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T04:08:56.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersonBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Business\\PersonBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\PersonBusiness.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Business\\PersonBusiness.cs",
+              "RelativeToolTip": "Business\\PersonBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T18:30:47.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonDataSqlServer.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\PersonDataSqlServer.cs",
+              "RelativeDocumentMoniker": "Data\\DbMotor\\PersonDataSqlServer.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\PersonDataSqlServer.cs",
+              "RelativeToolTip": "Data\\DbMotor\\PersonDataSqlServer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T18:29:49.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:14:00.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDataPostgres.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataPostgres.cs",
+              "RelativeDocumentMoniker": "Data\\DbMotor\\UserDataPostgres.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataPostgres.cs",
+              "RelativeToolTip": "Data\\DbMotor\\UserDataPostgres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:56:24.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDataMySql.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataMySql.cs",
+              "RelativeDocumentMoniker": "Data\\DbMotor\\UserDataMySql.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataMySql.cs",
+              "RelativeToolTip": "Data\\DbMotor\\UserDataMySql.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T05:05:36.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserData.cs",
               "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\UserData.cs",
               "RelativeDocumentMoniker": "Data\\UserData.cs",
@@ -111,59 +207,25 @@
               "RelativeToolTip": "Data\\UserData.cs",
               "ViewState": "AgIAAJUAAAAAAAAAAAAUwLIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T03:55:00.972Z"
+              "WhenOpened": "2025-04-08T03:55:00.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserDataSqlServer.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataSqlServer.cs",
-              "RelativeDocumentMoniker": "Data\\DbMotor\\UserDataSqlServer.cs",
-              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataSqlServer.cs",
-              "RelativeToolTip": "Data\\DbMotor\\UserDataSqlServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T03:54:00.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserData.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Interfaces\\IUserData.cs",
-              "RelativeDocumentMoniker": "Data\\Interfaces\\IUserData.cs",
-              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Interfaces\\IUserData.cs",
-              "RelativeToolTip": "Data\\Interfaces\\IUserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T03:51:02.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Business\\UserBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\UserBusiness.cs",
-              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Business\\UserBusiness.cs",
-              "RelativeToolTip": "Business\\UserBusiness.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T03:44:40.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Web\\Controllers\\UserController.cs",
               "RelativeToolTip": "Web\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAIBJwKMAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAIBZwKMAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T04:28:37.746Z"
+              "WhenOpened": "2025-04-07T04:28:37.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "FormBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Business\\FormBusiness.cs",
               "RelativeDocumentMoniker": "Business\\FormBusiness.cs",
@@ -171,7 +233,94 @@
               "RelativeToolTip": "Business\\FormBusiness.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAkwHEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:17:01.868Z"
+              "WhenOpened": "2025-04-06T16:17:01.868Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "47534f0f-e4a6-4851-93a9-8fef8a263376",
+        "Display": 0,
+        "X": 790,
+        "Y": 165,
+        "Width": 1496,
+        "Height": 438,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PersonData.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\PersonData.cs",
+              "RelativeDocumentMoniker": "Data\\PersonData.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\PersonData.cs",
+              "RelativeToolTip": "Data\\PersonData.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwKsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T18:31:00.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDataFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Factory\\UserDataFactory.cs",
+              "RelativeDocumentMoniker": "Data\\Factory\\UserDataFactory.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Factory\\UserDataFactory.cs",
+              "RelativeToolTip": "Data\\Factory\\UserDataFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:58:02.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Business\\UserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\UserBusiness.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Business\\UserBusiness.cs",
+              "RelativeToolTip": "Business\\UserBusiness.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwGMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:44:40.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserData.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Interfaces\\IUserData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IUserData.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\Interfaces\\IUserData.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IUserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:51:02.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDataSqlServer.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataSqlServer.cs",
+              "RelativeDocumentMoniker": "Data\\DbMotor\\UserDataSqlServer.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\proyecto-2025\\MER_Proyect_Qr\\Data\\DbMotor\\UserDataSqlServer.cs",
+              "RelativeToolTip": "Data\\DbMotor\\UserDataSqlServer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:54:00.353Z",
+              "EditorCaption": ""
             }
           ]
         }

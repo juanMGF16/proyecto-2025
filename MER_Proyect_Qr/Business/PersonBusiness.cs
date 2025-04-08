@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Data;
+using Data.Interfaces;
 using Entity.DTOs;
 using Entity.DTOs.Mostrar;
 using Entity.Model;
@@ -15,10 +16,10 @@ namespace Business
 {
     public class PersonBusiness
     {
-        private readonly PersonData _personData;
+        private readonly IUserData<Person, MostrarPersonDto> _personData;
         private readonly ILogger<PersonBusiness> _logger;
 
-        public PersonBusiness(PersonData personData, ILogger<PersonBusiness> logger)
+        public PersonBusiness(IUserData<Person, MostrarPersonDto> personData, ILogger<PersonBusiness> logger)
         {
             _personData = personData;
             _logger = logger;
@@ -30,7 +31,7 @@ namespace Business
         {
             try
             {
-                var persons = await _personData.GetAllAsync();
+                var persons = await _personData.GetAllAsyncSQL();
                 //var personDto = MapToDTOList(persons);
                 return persons;
             } 
@@ -43,7 +44,7 @@ namespace Business
         }
 
         // Método para obtener un persona por ID como DTO
-        public async Task<PersonDto> GetPersonByIdAsync(int id)
+        public async Task<MostrarPersonDto> GetPersonByIdAsync(int id)
         {
             if (id <= 0) 
             {
@@ -60,7 +61,8 @@ namespace Business
                     throw new EntityNotFoundException("Person", id);
                 }
 
-                return MapToDTO(person);
+                //return MapToDTO(person);
+                return person;
             }
             catch (Exception ex)
             {
@@ -103,14 +105,14 @@ namespace Business
                 if (existingPerson == null)
                     throw new EntityNotFoundException("person", personDto.Id);
 
-                existingPerson = MapToEntity(personDto);
-                var update = await _personData.UpdateAsync(existingPerson);
+                var personEntity = MapToEntity(personDto);
+                var update = await _personData.UpdateAsync(personEntity);
 
                 if (!update)
                     throw new ExternalServiceException("Base de datos", "No se pudo actualizar el person");
 
 
-                return MapToDTO(existingPerson);
+                return MapToDTO(personEntity);
             }
             catch (Exception ex)
             {
